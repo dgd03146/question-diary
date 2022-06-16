@@ -1,0 +1,23 @@
+.MyButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px 20px 20px;
+  font-size: 18px;
+  white-space: 18px;
+}
+
+.default {
+  background-color: white;
+  color: gray;
+}
+
+.positive {
+  background-color: #161d53;
+  color: white;
+}
+
+.negative {
+  background-color: #ee8631;
+  color: white;
+}

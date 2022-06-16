@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Noto+Sans&family=Nuosu+SIL&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(23, 46, 109);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nuosu SIL', serif;
+}
+
+@media (min-width: 1000px) {
+  .App {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App {
+    width: 90vw;
+  }
+}
+
+#root {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.App {
+  background-color: #ececec;
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
