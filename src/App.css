@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Noto+Sans&family=Nuosu+SIL&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  background-color: rgb(23, 46, 109);
-  min-height: 100vh;
+
+  background-color: transparent;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,13 +17,13 @@ body {
 
 @media (min-width: 1000px) {
   .App {
-    width: 90vw;
+    width: 70vw;
   }
 }
 
 @media (max-width: 1000px) {
   .App {
-    width: 90vw;
+    width: 70vw;
   }
 }
 
@@ -28,8 +33,9 @@ body {
 }
 
 .App {
-  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  background-color: white;
+
   min-height: 100vh;
-  padding-left: 20px;
-  padding-right: 20px;
 }
