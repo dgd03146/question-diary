@@ -7,7 +7,7 @@ const Calendars = ({ onChange, date }) => {
   return (
     <div className={styles.calendar}>
       <div className="calendar-container">
-        <Calendar onChange={onChange} value={date} />
+        <Calendar onChange={onChange} value={date} locale="en-GB" />
       </div>
     </div>
   );
