@@ -11,17 +11,20 @@
 .text {
   width: 50%;
   font-size: 25px;
+  display: flex;
   justify-content: center;
 }
 
 .btnLeft {
   width: 25%;
-  justify-content: start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .btnRight {
   width: 25%;
-  justify-content: end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header button {

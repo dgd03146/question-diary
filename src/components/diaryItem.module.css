@@ -1,0 +1,9 @@
+.diaryItem {
+  display: flex;
+  padding: 1em;
+  /* height: 100%; */
+}
+
+.imageContainer img {
+  width: 6rem;
+}

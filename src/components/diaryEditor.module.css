@@ -1,0 +1,54 @@
+.diaryEditor {
+  background-color: rgb(172, 211, 236);
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: beige;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 0 20px;
+}
+
+.emotion {
+  padding-top: 0;
+}
+
+.emotionContainer h2 {
+  margin-top: 0;
+}
+
+.emotionBox {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px; */
+}
+
+.emotionBox img {
+  cursor: pointer;
+  width: 120px;
+  padding: 10px;
+}
+
+.emotionBox img:hover {
+  background-color: black;
+}
+
+.question {
+  margin-top: 20px;
+  padding: 12px 40px;
+}
+
+.questionInput {
+  width: 100%;
+  height: 180px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.photo {
+  margin-top: 20px;
+  height: 300px;
+}

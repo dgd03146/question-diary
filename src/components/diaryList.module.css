@@ -2,8 +2,13 @@
   text-align: center;
   flex-basis: 40%;
   background-color: #f8b332;
-  color: #161d54;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.itemContainer {
+  overflow-y: auto;
 }
 
 .header {
@@ -56,4 +61,5 @@
   outline: none;
   border-top: none;
   border-bottom: none;
+  border: none;
 }

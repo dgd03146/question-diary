@@ -1,14 +1,16 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import Calendars from '../components/calendars';
 import styles from './home.module.css';
 import DiaryList from '../components/diaryList';
+import AuthContext from '../store/authContext';
 
 const Home = () => {
-  const [date, setDate] = useState(new Date());
+  const ctx = useContext(AuthContext);
+
   return (
     <div className={styles.home}>
-      <Calendars onChange={setDate} date={date} />
-      <DiaryList date={date} />
+      <Calendars onChange={ctx.setDate} date={ctx.date} />
+      <DiaryList date={ctx.date} className={styles.diaryList} />
     </div>
   );
 };
